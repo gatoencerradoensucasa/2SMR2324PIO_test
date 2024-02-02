@@ -1,0 +1,273 @@
+﻿*  { margin:5px; }
+
+body {
+    font-family: 'Century Gothic', 'Segoe UI', Verdana;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    background-color: #e6eff8;
+}
+/*EVENTOS*/
+#CabeceraEventos {
+    border: 1px solid rgba(0, 0, 0, 0.874);
+    background-color: #000000;
+    text-align: center;
+    height: 20%;
+}
+
+    #Cabecera img {
+        width: 70px;
+    }
+
+#fotoevento {
+    height: 95%;
+    width: 55%;
+    background-color: #000000;
+    float: right;
+}
+
+.fotoeve {
+    float: left;
+    height: auto;
+    width: auto;
+}
+
+#contenedor {
+    background-color: #353535;
+    height: 95%;
+    width: 43%;
+    float: left;
+}
+
+#Cabecera {
+    border: 1px solid rgba(0, 0, 0, 0.874);
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+    #Cabecera img {
+        width: auto;
+    }
+
+#ZonaI {
+    border: 1px solid rgb(214, 219, 233);
+    width: 300px;
+    height: auto;
+    background-color: #00a2ca;
+    padding: 5px;
+    float: left;
+}
+
+#footer {
+    height: 5%;
+    width: 90%;
+    background-color: #000000;
+}
+
+#Cuerpo {
+    margin-left: 320px;
+    margin-top: 10px;
+    border: 1px solid #cacaca;
+    background-color: #d4f2ff;
+    padding: 10px;
+}
+
+#Pie {
+    clear:both;
+    border: 1px solid #212121;
+    background-color: #ffffff;
+}
+
+/*SOBRENOSOTROS*/
+#teamcalistenia {
+    height: 20%;
+    width: 100%;
+    background-color: #333;
+}
+
+.fototeam {
+    height: auto;
+    width: auto;
+}
+
+#fundador {
+    background-color: #000000;
+    width: 42.1%;
+    height: 95%;
+    float: right;
+    border-radius: 5px;
+}
+.fotofundador {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.titulofundador {
+    font-size: 50px;
+}
+#contenedorqueescalistec {
+    height: 95%;
+    width: 56.1%;
+    background-color: #000000;
+    float: left;
+}
+
+#queescalistec {
+    height: auto;
+    max-height: 10%;
+    width: auto;
+    max-width: 95%;
+    background-color: red;
+}
+
+#textocalistec {
+    height: 80%;
+    width: auto;
+    background-color: black;
+    text-size-adjust: rgb(255, 255, 255);
+    font-size: 20pt;
+}
+
+#headertienda {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*CALENDARIO*/
+#headercalendario{
+    background-color: #6f620e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+#calendario {
+    background-color: #e7e7e7;
+    display: inline-block;
+    border: #000000;
+    border: 1px;
+    border-radius: 3%;
+}
+
+.primerdiaoctubre {
+    grid-column-start: 7;
+}
+
+.primerdianoviembre {
+    grid-column-start: 3;
+}
+
+.diadelasemana {
+    background: #fffbbd;
+    font-weight: bold;
+    max-width: 100px;
+    text-align: center;
+    border-color: #000000;
+}
+
+.estilodelistacalendario {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    width: 300px;
+    height: 230px;
+}
+
+#proximamente {
+    background-color: #6f620e;
+    display: inline-block;
+    height: 220px;
+    padding: 0px;
+    width: 290px;
+}
+
+#significadocalendario {
+    background-color: #fff8d1;
+    text-align: left;
+    display:grid;
+    height: 230px;
+    width: auto;
+}
+
+#tabladeganadores {
+    background-color: #fffdee;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+/*FUENTES DE TEXTO*/
+.estilotabla {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Titulo {
+    font-size:20pt;
+    font-weight:bold;
+
+}
+
+.Titulo2 {
+    font-size: 40pt;
+    font-weight: bolder;
+    font-style: initial;
+}
+
+.periodico {
+    font-size: 20pt;
+    font-style: normal;
+}
+
+.tituloperiodico {
+    font-size: 25pt;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*TIENDA*/
+.producto {
+    background-color: #c3fbff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+    height: 30%;
+    width: 30%;
+}
+
+
+.producto img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.producto h2 {
+    font-size: 1.5rem;
+}
+
+.producto p {
+    font-size: 1rem;
+}
+
+#abuelo {
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+}
